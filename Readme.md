@@ -8,5 +8,6 @@ In my tests `read` works faster on the first run (multicore machines), but `mmap
 
 I think, if benchmarking is done properly (without giving the app a chance to use a cache), the default reading method should outperform the other one. 
 
-Progress just for fun 
+---
+Progress chart, just for fun:
 ![GitHub Logo](https://i.ibb.co/jHjcMTF/bench.png)
